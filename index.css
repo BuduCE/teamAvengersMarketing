@@ -65,35 +65,37 @@
         text-align: center;
     }
     
-    .large{
+    .mobile4{
         position: absolute;
-        left: 300px;
+        left: 40px;
     }
     .quote{
         z-index: 1;
+        right: 80px;
+        top: 50px;
     }
     .block_quote{
-        width: 400px;
+        width: 300px;
         border-color: black;
         border-radius: 10px;
         position: absolute;
         background-color: white;
-        top: 230px;
-        right: 170px;
-        padding: 5px;
+        top: 160px;
+        right: 50px;
+        padding: 7px;
         z-index: 1;
         text-align: left;
     }
     .love_bg{
         position: absolute;
-        left: 320px;
-        top: 330px;
+        left: 200px;
+        top: 250px;
         z-index: 2;
     }
     .love{
         position: absolute;
-        left: 340px;
-        bottom: 110px;
+        left: 220px;
+        bottom: 0px;
         z-index: 3;
     }
 }
