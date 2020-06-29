@@ -14,11 +14,34 @@
     background-color: rgb(47, 47, 226);
     text-align: center;
 }
-.custom-file{
-    padding-top:40px;
-}
 .qus{
     color:white;
+}
+.buttonIn { 
+    width: 300px; 
+    position: relative; 
+} 
+#enter{ 
+    margin: 0px; 
+    padding: 0px; 
+    width: 100%; 
+    outline: none; 
+    height: 40px; 
+    border-radius: 5px; 
+} 
+#clear{ 
+    position: absolute; 
+    top: 0; 
+    border-radius: 5px; 
+    right: 6px; 
+    z-index: 2; 
+    border: none; 
+    top: 4px; 
+    height: 30px; 
+    cursor: pointer; 
+    color: white; 
+    background-color: blue; 
+    transform: translateX(2px); 
 }
 .five ul{
     list-style: none;
@@ -63,6 +86,9 @@
     .two_2{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    .butt{
+        padding-left: 40px;
     }
 }
 @media (min-width: 769px){
