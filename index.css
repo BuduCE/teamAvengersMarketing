@@ -54,6 +54,16 @@
     .intro{
         text-align: center;
     }
+    .forUnder1{
+        position: absolute;
+        top: 25px;
+        right: 85px;
+    }
+    .forUnder2{
+        position: absolute;
+        bottom: 25px;
+        left: 85px;
+    }
     .two_2{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -104,6 +114,16 @@
 @media (min-width: 769px){
     .small{
         display: none;
+    }
+    .forUnder1{
+        position: absolute;
+        bottom: 75px;
+        right: 55px;
+    }
+    .forUnder2{
+        position: absolute;
+        bottom: 75px;
+        left: 85px;
     }
     .two_2{
         display: grid;
