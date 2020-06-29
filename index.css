@@ -24,6 +24,12 @@
     list-style: none;
     color: black;
 }
+.test{
+    padding-left: 15px;
+}
+.three{
+
+}
 .block_quote{
     width: 400px;
     border: black;
@@ -31,21 +37,21 @@
     border-radius: 2px;
     position: absolute;
     background-color: white;
-    top: 220px;
+    top: 230px;
     right: 300px;
     padding: 5px;
+    z-index: 1;
 }
 .love_bg{
     position: absolute;
-    left: 210px;
+    left: 240px;
+    padding-bottom: 35px;
+    z-index: 1;
 }
 .love{
     position: absolute;
-    left: 240px;
-    bottom: 4px;
-}
-.comma1{
-    padding-right: 5px;
+    left: 260px;
+    bottom: 6px;
 }
 @media (max-width: 768px){
     .large{
