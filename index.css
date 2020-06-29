@@ -67,30 +67,32 @@
     
     .mobile4{
         position: absolute;
-        left: 40px;
+        left: 45px;
     }
     .quote{
         z-index: 1;
-        right: 80px;
-        top: 50px;
+        right: 100px;
+        top: 40px;
     }
     .block_quote{
-        width: 300px;
+        width: 200px;
         border-color: black;
-        border-radius: 10px;
+        border-radius: 5px;
         position: absolute;
         background-color: white;
-        top: 160px;
+        top: 200px;
         right: 50px;
-        padding: 7px;
+        padding: 5px;
         z-index: 1;
         text-align: left;
+        font-size: 9px;
     }
     .love_bg{
         position: absolute;
         left: 200px;
         top: 250px;
         z-index: 2;
+        size: 10px;
     }
     .love{
         position: absolute;
