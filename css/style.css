@@ -82,22 +82,29 @@
         text-align: left;
     }
     .quote{
-        z-index: 1;
-        right: 100px;
-        top: 40px;
-    }
-    .block_quote{
-        width: 200px;
-        border-radius: 5px;
         position: absolute;
-        background-color: white;
+        z-index: 2;
+        top: 140px;
+        left: 190px;
+    }
+    .quote1{
         top: 180px;
-        left: 110px;
+        left: 130px;
         padding: 5px;
         z-index: 1;
         text-align: left;
-        font-size: 8px;
-    }
+        padding: 5;
+        font-size: 12px;
+        position: absolute;
+        width: 280px;
+        height: 140px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
     .qus{
         margin-left: auto;
         margin-right: auto;
@@ -138,21 +145,29 @@
     }
     .quote{
         position: absolute;
-        z-index: 1;
-        top: 200px;
-        left:0px;
+        z-index: 2;
+        top: 250px;
+        left: 60px;
     }
-    .block_quote{
-        width: 400px;
-        border-color: black;
-        border-radius: 10px;
-        position: absolute;
-        background-color: white;
-        top: 230px;
-        right: 300px;
+    .quote1{
+        top: 290px;
+        left: 30px;
         padding: 5px;
         z-index: 1;
+        text-align: left;
+        padding: 5;
+        font-size: 12px;
+        position: absolute;
+        width: 280px;
+        height: 140px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
     }
+    
     .qus{
         color:white;
         text-align: left;
