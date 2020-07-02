@@ -5,6 +5,8 @@
     left: 2px;
     top: -5px;
     z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
 }
 .two{
     background-color: #4057F3;
