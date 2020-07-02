@@ -124,7 +124,7 @@
         padding-right: 15px;
     }
     .smfoot a{
-        color: black;
+        color: rgba(0, 0, 0, 0.5);
     }
     .bud{
         margin-left: auto;
@@ -174,9 +174,10 @@
     }
     .five ul{
         list-style: none;
+        line-height: 30px;
     }
     .five a{
-        color: black;
+        color: rgba(0, 0, 0, 0.5);
     }
 }
 @media (max-width:550px){
